@@ -1,0 +1,107 @@
+.first{
+    padding:80px;
+}
+header h2{
+    margin-left:-25px;
+    color: #fff;
+    margin-top: -52px;
+    position: fixed;
+    
+}
+header ul  {
+    margin-left: 35%;
+    position:fixed;
+    top:0;
+    left:0;
+    width:60%;
+    padding:20px 5px;
+    display:flex;
+    justify-content: space-between;
+    color:#fff;
+    list-style: none;
+    
+}
+header ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.banner p{
+    font-size: 5.5mm;
+    color: #fff;
+    padding-top: 15px;
+
+}
+.banner h3{
+    font-size: 5.5mm;
+    color: #fff;
+    padding-top: 15px;
+
+}
+.bt1{
+ color: #fff;
+ border:2px;
+ background: green;
+ border-radius: 50px;
+ font-size: 4.5mm;
+ 
+
+}
+footer{
+    padding:160px;
+}
+footer.copyright{
+    color:blue;
+    text-align: center;
+    font-size: 4.5mm;
+    position:fixed;
+
+    
+
+
+    
+}
+.im{
+    padding-top: 10%;
+    float:left;
+}
+.backgroundImage
+{
+    background-image: url('pic.jpg');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.para{
+    color: #fff;
+    text-align: center;
+    padding-top:10%
+}
+.pro{
+    padding: 180px;
+}
+.pro p{
+    margin-left: 200px;
+    margin-top: -150px;
+}
+.pro.name{
+    margin-top: 20%;
+    font-size: 19mm;
+} 
+.pr{
+    color:cadetblue;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 10mm;
+}
+.poco{
+    margin-left:-100px;
+    margin-top: 60px;
+}
+.phone{
+    margin-left:-100px;
+    margin-top: 10%;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Shopping cart-form</title>
+    <link rel="stylesheet" href="cart.css">
+    <script type="text/javascript" src="cart.js">
+    </script>
+</head>
+<body>
+    <div class="form" id="form">
+    <h2 style="text-align:center ">Welcome to Shopping Cart</h2>
+    <h3>Fill the required details to place your order!!!</h3>
+    <img src="shop.jpg" class="im">
+    <form class="tabform">
+        <table align:center>
+            <tr>
+                
+                <td>First Name <input type="textarea" placeholder="" id="fname">
+                </td>
+            </tr>
+            <tr>
+                
+                
+                <td>Last Name <input type="textarea" placeholder="" id="lname"></td>
+            </tr>
+            <tr>
+                
+                <td>Product Name <input type="textarea" placeholder="" id="prname">
+                </td>
+            </tr>
+            <tr>
+                
+                
+                <td>Product Quantity
+                    <input type="textarea" placeholder="" id="pqname">
+                </td>
+            </tr>
+            <tr>
+                
+                
+                <td>Product Price <input type="textarea" placeholder="" id="prcname"></td>
+            </tr>
+            <tr>
+                
+                
+                <td>Address </td></tr><tr><td><textarea class="add"   rows="4" cols="41" id="adname"></textarea></textarea></td>
+            </tr>
+            <tr>
+                
+                
+                <td>Contact <input type="textarea" placeholder="" id="cqname"></td>
+            </tr>
+            <tr><td><label > Payment Mode</label>
+                <select id="C" name="mode">
+                    <option>Select</option>
+                    <option>Cash On Delivery</option>
+                    <option>Paytm</option>
+                    <option>Google Pay</option>
+                    <option>Net Banking</option>
+                </select><tr></td>
+            <tr><td><button id="btn" class="bt" onclick="CartDisplay()" >Place Your Order</button></td></tr>
+        </div>
+        </table>
+    </form>
+</body>
+</html>
